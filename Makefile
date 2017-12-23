@@ -1,3 +1,5 @@
+.PHONY: build
+
 BUILD_FOLDER := ./build
 BIN_NAME := jean-bobot
 
