@@ -13,5 +13,4 @@ run:
 	go run main.go
 
 clean:
-	find . -name build -type d | xargs rm -fr
-	find . -name vendor -type d | xargs rm -fr
+	find ./ -type d \( -name build -o -name vendor \) -prune -exec rm -fr {} 
