@@ -13,4 +13,4 @@ run:
 	go run main.go
 
 clean:
-	find ./ -type d \( -name build -o -name vendor \) -prune -exec rm -fr {} 
+	find ./ -type d \( -name build -o -name vendor \) -prune -exec rm -fr {} \;
